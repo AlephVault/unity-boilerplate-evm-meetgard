@@ -9,10 +9,53 @@
       }
     },
     "com.alephvault.unity.boilerplates": {
-      "version": "file:/home/luismasuelli/Projects/Unity/unity-boilerplates",
+      "version": "file:../../unity-boilerplates",
       "depth": 0,
       "source": "local",
       "dependencies": {}
+    },
+    "com.alephvault.unity.evmgames": {
+      "version": "file:../../unity-evmgames",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.support": "0.0.2",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    },
+    "com.alephvault.unity.evmgames.auth": {
+      "version": "file:../../unity-evmgames-auth",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.meetgard.auth": "0.0.3",
+        "com.alephvault.unity.evmgames": "0.0.2"
+      }
+    },
+    "com.alephvault.unity.evmgames.livecache": {
+      "version": "file:../../unity-evmgames-livecache",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.evmgames": "0.0.2",
+        "com.alephvault.unity.remotestorage": "0.0.2"
+      }
+    },
+    "com.alephvault.unity.evmgames.localstorage": {
+      "version": "file:../../unity-evmgames-localstorage",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.evmgames": "0.0.2"
+      }
+    },
+    "com.alephvault.unity.ipfs": {
+      "version": "file:../../unity-ipfs",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.support": "0.0.1"
+      }
     },
     "com.alephvault.unity.layout": {
       "version": "file:../../unity-layout",
@@ -27,7 +70,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.support": "0.0.1",
+        "com.alephvault.unity.support": "0.0.3",
         "com.alephvault.unity.layout": "0.0.1",
         "com.alephvault.unity.menuactions": "0.0.1",
         "com.alephvault.unity.boilerplates": "0.0.1",
@@ -39,7 +82,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.meetgard": "0.0.3",
+        "com.alephvault.unity.meetgard": "0.0.5",
         "com.alephvault.unity.support.generic": "0.0.1"
       }
     },
@@ -53,7 +96,7 @@
       }
     },
     "com.alephvault.unity.menuactions": {
-      "version": "file:/home/luismasuelli/Projects/Unity/unity-menu-actions",
+      "version": "file:../../unity-menu-actions",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -84,33 +127,40 @@
         "com.alephvault.unity.support": "0.0.1"
       }
     },
-    "com.unity.collab-proxy": {
-      "version": "1.5.7",
+    "com.unity.ai.navigation": {
+      "version": "1.1.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.0"
+        "com.unity.modules.ai": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.collab-proxy": {
+      "version": "2.0.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
-      "version": "1.0.6",
+      "version": "2.0.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "2.0.7",
+      "version": "3.0.24",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.1"
+        "com.unity.ext.nunit": "1.0.6"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.8",
+      "version": "2.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -118,15 +168,8 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.ide.vscode": {
-      "version": "1.2.3",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "2.0.0",
+      "version": "3.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -149,11 +192,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.24",
+      "version": "1.3.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.ext.nunit": "1.0.6",
+        "com.unity.ext.nunit": "2.0.3",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
@@ -169,7 +212,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.4.8",
+      "version": "1.8.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -330,17 +373,6 @@
     "com.unity.modules.uielements": {
       "version": "1.0.0",
       "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.uielementsnative": "1.0.0"
-      }
-    },
-    "com.unity.modules.uielementsnative": {
-      "version": "1.0.0",
-      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",

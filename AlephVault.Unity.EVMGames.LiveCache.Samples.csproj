@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{bc5c0367-bc54-20a8-fd6e-c18e603d70cf}</ProjectGuid>
+    <ProjectGuid>{10667338-8560-5965-eec1-feeb0aef9df1}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>AlephVault.Unity.RemoteStorage.Runtime</AssemblyName>
+    <AssemblyName>AlephVault.Unity.EVMGames.LiveCache.Samples</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,7 +25,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\AlephVault.Unity.RemoteStorage.Runtime\</OutputPath>
+    <OutputPath>Temp\Bin\Debug\AlephVault.Unity.EVMGames.LiveCache.Samples\</OutputPath>
     <DefineConstants>UNITY_2023_1_13;UNITY_2023_1;UNITY_2023;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -45,31 +45,12 @@
     <Analyzer Include="/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types/Interfaces/ISimpleResource.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Implementation/Engine_Errors.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/Resource.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types/Interfaces/IListResource.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/Conflict.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Implementation/Engine_Common.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/Created.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/ListResource.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/BadRequest.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/Root.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Implementation/Engine.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/Authorization.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/Cursor.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types/Results/ResultCode.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types/SimpleResource.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types/Results/Result.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types/Interfaces/IRoot.cs" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types/Results" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Implementation" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/AlephVault.Unity.RemoteStorage.Runtime.asmdef" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/StandardHttp/Types" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/Runtime/Types/Interfaces" />
+     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache/Samples/Scripts/SampleCacheAccess.cs" />
+     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache/Samples/Scripts/SampleStateGrabber.cs" />
+     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache/Samples/Scripts" />
+     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache/Samples" />
+     <None Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache/Samples/AlephVault.Unity.EVMGames.LiveCache.Samples.asmdef" />
+     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache/Samples/Scenes" />
      <Reference Include="UnityEngine">
      <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -831,13 +812,17 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
-      <Project>{43b06186-05bf-fba4-0faf-9e5d407c9b3a}</Project>
-      <Name>AlephVault.Unity.Support.Generic.Runtime</Name>
+    <ProjectReference Include="AlephVault.Unity.EVMGames.Runtime.csproj">
+      <Project>{e8c4865f-dc00-8c2f-d1e3-8891cec27204}</Project>
+      <Name>AlephVault.Unity.EVMGames.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.Support.Runtime.csproj">
-      <Project>{81f0fe4c-0630-bdcd-07f5-17229cb805c2}</Project>
-      <Name>AlephVault.Unity.Support.Runtime</Name>
+    <ProjectReference Include="AlephVault.Unity.RemoteStorage.Runtime.csproj">
+      <Project>{bc5c0367-bc54-20a8-fd6e-c18e603d70cf}</Project>
+      <Name>AlephVault.Unity.RemoteStorage.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AlephVault.Unity.EVMGames.LiveCache.Runtime.csproj">
+      <Project>{a5268182-91b3-3d6d-1e16-5ac3dc318ec0}</Project>
+      <Name>AlephVault.Unity.EVMGames.LiveCache.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
