@@ -2,8 +2,10 @@
   "dependencies": {
     "com.alephvault.unity.binary": "file:../../unity-binary",
     "com.alephvault.unity.boilerplates": "file:../../unity-boilerplates",
+    "com.alephvault.unity.deeplinks": "file:../../unity-deeplinks",
     "com.alephvault.unity.evmgames": "file:../../unity-evmgames",
     "com.alephvault.unity.evmgames.auth": "file:../../unity-evmgames-auth",
+    "com.alephvault.unity.evmgames.deeplinks": "file:../../unity-evmgames-deeplinks",
     "com.alephvault.unity.evmgames.livecache": "file:../../unity-evmgames-livecache",
     "com.alephvault.unity.evmgames.localstorage": "file:../../unity-evmgames-localstorage",
     "com.alephvault.unity.ipfs": "file:../../unity-ipfs",
