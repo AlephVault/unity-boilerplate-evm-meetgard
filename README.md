@@ -29,8 +29,8 @@ So far this project relies on a set of packages that I could consider, at best, 
 
 You can run the attached scripts to clone the dependencies after cloning this project:
 
- - Windows: clone-all.sh
- - Unix-based (bash): clone-all.bat
+ - Windows: clone-all.bat
+ - Unix-based (bash): clone-all.sh
  
 If you have these repositories already cloned for another boilerplate and version, you can just go inside and checkout the proper (remote, typically) tags instead.
 
