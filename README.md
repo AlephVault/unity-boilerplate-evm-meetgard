@@ -21,11 +21,13 @@ So far this project relies on a set of packages that I could consider, at best, 
  - com.alephvault.unity.meetgard.auth: [Clone it - 0.0.4](https://github.com/AlephVault/unity-meetgard-auth/tree/0.0.4).
  - com.alephvault.unity.meetgard.scopes: [Clone it - 0.0.3](https://github.com/AlephVault/unity-meetgard-scopes/tree/0.0.3).
  - com.alephvault.unity.remotestorage: [Clone it - 0.0.2](https://github.com/AlephVault/unity-remotestorage/tree/0.0.2).
+ - com.alephvault.unity.deeplinks [Clone it - 0.0.1](git@github.com:AlephVault/unity-deeplinks.git/tree/0.0.1).
  - com.alephvault.unity.ipfs [Clone it - 0.0.1](https://github.com/AlephVault/unity-ipfs/tree/0.0.1).
  - com.alephvault.unity.evmgames [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames/tree/0.0.2).
  - com.alephvault.unity.evmgames.auth [Clone it - 0.0.3](https://github.com/AlephVault/unity-evmgames-auth/tree/0.0.3).
  - com.alephvault.unity.evmgames.livecache [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-livecache/tree/0.0.2).
  - com.alephvault.unity.evmgames.localstorage [Clone it - 0.0.1](https://github.com/AlephVault/unity-evmgames-localstorage/tree/0.0.1).
+ - com.alephvault.unity.evmgames.deeplinks [Clone it - 0.0.1](git@github.com:AlephVault/unity-evmgames-deeplinks.git/tree/0.0.1).
 
 You can run the attached scripts to clone the dependencies after cloning this project:
 
