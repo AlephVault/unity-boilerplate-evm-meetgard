@@ -38,6 +38,25 @@
         "com.alephvault.unity.evmgames": "0.0.2"
       }
     },
+    "com.alephvault.unity.evmgames.contracts": {
+      "version": "file:../../unity-evmgames-contracts",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.menuactions": "0.0.1",
+        "com.alephvault.unity.boilerplates": "0.0.1",
+        "com.alephvault.unity.evmgames": "0.0.2",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+    },
+    "com.alephvault.unity.evmgames.contracts.bridge": {
+      "version": "file:../../unity-evmgames-bridge-contract",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.evmgames.contracts": "0.0.1"
+      }
+    },
     "com.alephvault.unity.evmgames.deeplinks": {
       "version": "file:../../unity-evmgames-deeplinks",
       "depth": 0,
