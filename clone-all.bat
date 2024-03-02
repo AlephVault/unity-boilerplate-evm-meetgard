@@ -14,5 +14,6 @@ call git clone --branch 0.0.2 git@github.com:AlephVault/unity-evmgames.git ..\un
 call git clone --branch 0.0.3 git@github.com:AlephVault/unity-evmgames-auth.git ..\unity-evmgames-auth
 call git clone --branch 0.0.2 git@github.com:AlephVault/unity-evmgames-livecache.git ..\unity-evmgames-livecache
 call git clone --branch 0.0.1 git@github.com:AlephVault/unity-evmgames-localstorage.git ..\unity-evmgames-localstorage
+call git clone --branch 0.0.1 git@github.com:AlephVault/unity-evmgames-contracts.git ..\unity-evmgames-contracts
 call git clone --branch 0.0.1 git@github.com:AlephVault/unity-evmgames-deeplinks.git ..\unity-evmgames-deeplinks
 
