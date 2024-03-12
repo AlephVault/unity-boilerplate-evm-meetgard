@@ -363,6 +363,9 @@
      <Reference Include="Nethereum.Siwe.Core">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Siwe.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Microsoft.IdentityModel.Logging">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Logging.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
@@ -374,6 +377,9 @@
      </Reference>
      <Reference Include="Nethereum.JsonRpc.RpcClient">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.JsonRpc.RpcClient.dll</HintPath>
+     </Reference>
+     <Reference Include="zxing.unity">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/External/ZXing/zxing.unity.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.RLP">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.RLP.dll</HintPath>
@@ -396,6 +402,9 @@
      <Reference Include="Nethereum.UI">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.UI.dll</HintPath>
      </Reference>
+     <Reference Include="WalletConnectSharp.Core">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Core.dll</HintPath>
+     </Reference>
      <Reference Include="Nethereum.Metamask">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Metamask.dll</HintPath>
      </Reference>
@@ -411,14 +420,38 @@
      <Reference Include="Nethereum.JsonRpc.Client">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.JsonRpc.Client.dll</HintPath>
      </Reference>
+     <Reference Include="WalletConnectSharp.Crypto">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Crypto.dll</HintPath>
+     </Reference>
      <Reference Include="Nethereum.Accounts">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Accounts.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Tokens">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Tokens.dll</HintPath>
+     </Reference>
+     <Reference Include="Websocket.Client">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Websocket.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Sign">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Sign.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.Unity.Metamask">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Unity.Metamask.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.Besu">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Besu.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reactive">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/System.Reactive.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Common">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Network">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Network.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Abstractions">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Abstractions.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.Util">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Util.dll</HintPath>
@@ -438,8 +471,17 @@
      <Reference Include="Newtonsoft.Json">
      <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
      </Reference>
+     <Reference Include="embedded-wallet-service-sdk">
+     <HintPath>/home/luis/Projects/AlephVault/unity-evmgames-wallets/Runtime/embedded-wallet-service-sdk.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Storage">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Storage.dll</HintPath>
+     </Reference>
      <Reference Include="Nethereum.Siwe">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Siwe.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Channels">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/System.Threading.Channels.dll</HintPath>
      </Reference>
      <Reference Include="NBitcoin">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/NBitcoin.dll</HintPath>
@@ -453,53 +495,11 @@
      <Reference Include="Nethereum.Contracts">
      <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Contracts.dll</HintPath>
      </Reference>
-     <Reference Include="Nethereum.ABI">
-     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.ABI.dll</HintPath>
-     </Reference>
-     <Reference Include="Microsoft.IdentityModel.Logging">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Logging.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.Channels">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/System.Threading.Channels.dll</HintPath>
-     </Reference>
-     <Reference Include="zxing.unity">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/External/ZXing/zxing.unity.dll</HintPath>
-     </Reference>
-     <Reference Include="WalletConnectSharp.Common">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Common.dll</HintPath>
-     </Reference>
-     <Reference Include="Microsoft.IdentityModel.Tokens">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Tokens.dll</HintPath>
-     </Reference>
-     <Reference Include="WalletConnectSharp.Crypto">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Crypto.dll</HintPath>
-     </Reference>
-     <Reference Include="WalletConnectSharp.Storage">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Storage.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reactive">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/System.Reactive.dll</HintPath>
-     </Reference>
      <Reference Include="WalletConnectSharp.Network.Websocket">
      <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Network.Websocket.dll</HintPath>
      </Reference>
-     <Reference Include="WalletConnectSharp.Sign">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Sign.dll</HintPath>
-     </Reference>
-     <Reference Include="WalletConnectSharp.Network">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Network.dll</HintPath>
-     </Reference>
-     <Reference Include="Websocket.Client">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Websocket.Client.dll</HintPath>
-     </Reference>
-     <Reference Include="Microsoft.IdentityModel.Abstractions">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Abstractions.dll</HintPath>
-     </Reference>
-     <Reference Include="WalletConnectSharp.Core">
-     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="embedded-wallet-service-sdk">
-     <HintPath>/home/luis/Projects/AlephVault/unity-evmgames-wallets/Runtime/embedded-wallet-service-sdk.dll</HintPath>
+     <Reference Include="Nethereum.ABI">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.ABI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
