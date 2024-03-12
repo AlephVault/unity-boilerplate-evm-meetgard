@@ -22,7 +22,7 @@ So far this project relies on a set of packages that I could consider, at best, 
  - com.alephvault.unity.meetgard.auth: [Clone it - 0.0.5](https://github.com/AlephVault/unity-meetgard-auth/tree/0.0.4).
  - com.alephvault.unity.meetgard.scopes: [Clone it - 0.0.3](https://github.com/AlephVault/unity-meetgard-scopes/tree/0.0.3).
  - com.alephvault.unity.remotestorage: [Clone it - 0.0.2](https://github.com/AlephVault/unity-remotestorage/tree/0.0.2).
- - com.alephvault.unity.deeplinks: [Clone it - 0.0.1](git@github.com:AlephVault/unity-deeplinks.git/tree/0.0.1).
+ - com.alephvault.unity.deeplinks: [Clone it - 0.0.1](https://github.com/AlephVault/unity-deeplinks.git/tree/0.0.1).
  - com.alephvault.unity.ipfs: [Clone it - 0.0.1](https://github.com/AlephVault/unity-ipfs/tree/0.0.1).
  - com.alephvault.unity.evmgames.wallets: [Clone it - 0.0.1](https://github.com/AlephVault/unity-evmgames-wallets/tree/0.0.1).
  - com.alephvault.unity.evmgames.auth: [Clone it - 0.0.4](https://github.com/AlephVault/unity-evmgames-auth/tree/0.0.3).
