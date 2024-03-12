@@ -169,7 +169,7 @@
       "dependencies": {}
     },
     "com.nethereum.unity.walletconnect": {
-      "version": "file:/home/luis/Projects/AlephVault/Nethereum.Unity.WalletConnect",
+      "version": "file:../../Nethereum.Unity.WalletConnect",
       "depth": 0,
       "source": "local",
       "dependencies": {
