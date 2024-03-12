@@ -5,7 +5,7 @@ This is a boilerplate project. It includes EVMGames/Meetgard and all the require
 Unity version
 -------------
 
-The current status is meant to be used in Unity 2023.1.1 due to issues in previous versions.
+The current status is meant to be used in Unity 2023.1.13f1 due to issues in previous versions.
 
 Dependencies versioning and status
 ----------------------------------
