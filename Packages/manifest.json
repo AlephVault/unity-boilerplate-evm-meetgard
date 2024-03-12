@@ -3,13 +3,13 @@
     "com.alephvault.unity.binary": "file:../../unity-binary",
     "com.alephvault.unity.boilerplates": "file:../../unity-boilerplates",
     "com.alephvault.unity.deeplinks": "file:../../unity-deeplinks",
-    "com.alephvault.unity.evmgames": "file:../../unity-evmgames",
     "com.alephvault.unity.evmgames.auth": "file:../../unity-evmgames-auth",
     "com.alephvault.unity.evmgames.contracts": "file:../../unity-evmgames-contracts",
     "com.alephvault.unity.evmgames.contracts.bridge": "file:../../unity-evmgames-bridge-contract",
     "com.alephvault.unity.evmgames.deeplinks": "file:../../unity-evmgames-deeplinks",
     "com.alephvault.unity.evmgames.livecache": "file:../../unity-evmgames-livecache",
     "com.alephvault.unity.evmgames.localstorage": "file:../../unity-evmgames-localstorage",
+    "com.alephvault.unity.evmgames.wallets": "file:../../unity-evmgames-wallets",
     "com.alephvault.unity.ipfs": "file:../../unity-ipfs",
     "com.alephvault.unity.layout": "file:../../unity-layout",
     "com.alephvault.unity.meetgard": "file:../../unity-meetgard",
@@ -19,6 +19,8 @@
     "com.alephvault.unity.remotestorage": "file:../../unity-remotestorage",
     "com.alephvault.unity.support": "file:../../unity-support",
     "com.alephvault.unity.support.generic": "file:../../unity-support-generic",
+    "com.nethereum.unity": "file:../../Nethereum.Unity",
+    "com.nethereum.unity.walletconnect": "file:/home/luis/Projects/AlephVault/Nethereum.Unity.WalletConnect",
     "com.unity.ai.navigation": "1.1.4",
     "com.unity.collab-proxy": "2.0.7",
     "com.unity.ide.rider": "3.0.24",
@@ -28,6 +30,8 @@
     "com.unity.timeline": "1.8.2",
     "com.unity.toolchain.linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
+    "com.walletconnect.core": "3.0.6",
+    "com.walletconnect.modal": "1.0.6",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -59,5 +63,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.walletconnect"
+      ]
+    }
+  ]
 }

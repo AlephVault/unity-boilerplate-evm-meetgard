@@ -43,47 +43,60 @@
   <ItemGroup>
      <Folder Include="Assets" />
      <Folder Include="Library/BuildInstructions" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-boilerplates/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-meetgard-scopes" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-menu-actions/package.json" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-meetgard-scopes/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-ipfs" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-support" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-menu-actions" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-meetgard-auth" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-ipfs/package.json" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-evmgames-localstorage/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth" />
+     <None Include="/home/luis/Projects/AlephVault/unity-boilerplates/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-deeplinks" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-meetgard-scopes" />
+     <None Include="/home/luis/Projects/AlephVault/unity-menu-actions/package.json" />
+     <None Include="/home/luis/Projects/AlephVault/unity-meetgard-scopes/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-ipfs" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-deeplinks" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-support" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-livecache/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-menu-actions" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-meetgard-auth" />
+     <None Include="/home/luis/Projects/AlephVault/unity-ipfs/package.json" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-localstorage/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-auth" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-contracts/package.json" />
      <Folder Include="Assets/Scenes" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-layout/package.json" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-binary/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-binary" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-remotestorage" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-support-generic/package.json" />
+     <None Include="/home/luis/Projects/AlephVault/unity-layout/package.json" />
+     <None Include="/home/luis/Projects/AlephVault/unity-binary/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-bridge-contract" />
+     <Folder Include="Assets/WalletConnectUnity" />
+     <Folder Include="/home/luis/Projects/AlephVault/Nethereum.Unity.WalletConnect" />
+     <None Include="/home/luis/Projects/AlephVault/Nethereum.Unity/package.json" />
+     <None Include="/home/luis/Projects/AlephVault/unity-deeplinks/package.json" />
+     <Folder Include="Assets/WalletConnectUnity/Resources" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-binary" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-wallets/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-remotestorage" />
+     <None Include="/home/luis/Projects/AlephVault/unity-support-generic/package.json" />
      <Folder Include="Assets/Scripts" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-boilerplates" />
-     <Folder Include="Assets/Nethereum" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-meetgard-auth/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-meetgard" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-livecache" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-evmgames/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-support-generic" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-localstorage" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-support/package.json" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-remotestorage/package.json" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-layout" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-meetgard/package.json" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-boilerplates" />
+     <None Include="/home/luis/Projects/AlephVault/unity-meetgard-auth/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-meetgard" />
+     <None Include="/home/luis/Projects/AlephVault/Nethereum.Unity.WalletConnect/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-livecache" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-support-generic" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-localstorage" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-bridge-contract/package.json" />
+     <None Include="/home/luis/Projects/AlephVault/unity-support/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/Nethereum.Unity" />
+     <None Include="/home/luis/Projects/AlephVault/unity-remotestorage/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-contracts" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-layout" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-deeplinks/package.json" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-wallets" />
+     <None Include="/home/luis/Projects/AlephVault/unity-meetgard/package.json" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/package.json" />
      <Reference Include="UnityEngine">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

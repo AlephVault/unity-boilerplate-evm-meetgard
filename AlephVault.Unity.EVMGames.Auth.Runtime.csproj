@@ -41,785 +41,842 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
-    <Analyzer Include="/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Authoring/Behaviours/EVMClient.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Types/IEVMRecordWithPreview.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Types/ChallengeUtils.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Protocols/EVMAuthProtocolClientSide.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Types/EVMLoginMessage.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Protocols/EVMAuthProtocolDefinition.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Types/IEVMAccountPreview.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Types/IEVMLoginFailed.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Protocols/EVMAuthProtocolServerSide.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Protocols/IEVMAuthProtocolClientSide.cs" />
-     <Compile Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Types/EVMLoginFailed.cs" />
-     <None Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/AlephVault.Unity.EVMGames.Auth.Runtime.asmdef" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Authoring" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Protocols" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Authoring/Behaviours" />
-     <Folder Include="/home/luismasuelli/Projects/Unity/unity-evmgames-auth/Runtime/Types" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Authoring/Behaviours/EVMClient.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Types/IEVMRecordWithPreview.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Types/ChallengeUtils.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Protocols/EVMAuthProtocolClientSide.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Types/EVMLoginMessage.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Protocols/EVMAuthProtocolDefinition.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Types/IEVMAccountPreview.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Types/IEVMLoginFailed.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Protocols/EVMAuthProtocolServerSide.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Protocols/IEVMAuthProtocolClientSide.cs" />
+     <Compile Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Types/EVMLoginFailed.cs" />
+     <None Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/AlephVault.Unity.EVMGames.Auth.Runtime.asmdef" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Authoring" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Protocols" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Authoring/Behaviours" />
+     <Folder Include="/home/luis/Projects/AlephVault/unity-evmgames-auth/Runtime/Types" />
      <Reference Include="UnityEngine">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AIModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AccessibilityModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AndroidJNIModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AnimationModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AssetBundleModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AudioModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterInputModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterRendererModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CommandStateObserverModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CommandStateObserverModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CommandStateObserverModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ContentLoadModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CrashReportingModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DSPGraphModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DirectorModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GIModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GameCenterModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GraphToolsFoundationModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphToolsFoundationModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphToolsFoundationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GridModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.HotReloadModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.IMGUIModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ImageConversionModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputLegacyModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.JSONSerializeModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.LocalizationModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.MarshallingModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ParticleSystemModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PerformanceReportingModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PhysicsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Physics2DModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ProfilerModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PropertiesModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ScreenCaptureModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SharedInternalsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteMaskModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteShapeModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.StreamingModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubstanceModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubsystemsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TLSModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainPhysicsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreFontEngineModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreTextEngineModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextRenderingModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TilemapModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UmbraModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityConnectModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityCurlModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityTestProtocolModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VFXModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VRModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VehiclesModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VirtualTexturingModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XRModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.CoreModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.DeviceSimulatorModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.DiagnosticsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.EditorToolbarModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.GraphToolsFoundationModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphToolsFoundationModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphToolsFoundationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.GraphViewModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.PresetsUIModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.PropertiesModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.QuickSearchModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SceneTemplateModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SceneViewModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TerrainModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TextCoreFontEngineModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TextCoreTextEngineModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIBuilderModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIElementsModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIElementsSamplesModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UnityConnectModule">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.Graphs">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.Android.Extensions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="nunit.framework">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="log4netPlastic">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Util">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Util.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.RPC">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.RPC.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Siwe">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Siwe.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.RPC.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
      </Reference>
-     <Reference Include="Nethereum.JsonRpc.Client">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.JsonRpc.Client.dll</HintPath>
+     <Reference Include="Nethereum.Geth">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Geth.dll</HintPath>
      </Reference>
-     <Reference Include="Nethereum.Metamask">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Metamask.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Contracts">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Contracts.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.GnosisSafe">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.GnosisSafe.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Merkle">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Merkle.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Model">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Model.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Signer">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Signer.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Web3">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Web3.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.ABI">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.ABI.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Merkle.Patricia">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Merkle.Patricia.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Siwe.Core">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Siwe.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.Hex">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Hex.dll</HintPath>
-     </Reference>
-     <Reference Include="Nethereum.RLP">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.RLP.dll</HintPath>
-     </Reference>
-     <Reference Include="QRCoder.Unity">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/QRCoder.Unity.dll</HintPath>
+     <Reference Include="Nethereum.Optimism">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Optimism.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.BlockchainProcessing">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.BlockchainProcessing.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.BlockchainProcessing.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Model">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Model.dll</HintPath>
+     </Reference>
+     <Reference Include="nunit.framework">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.ext.nunit@2.0.3/net40/unity-custom/nunit.framework.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Signer">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Signer.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Siwe.Core">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Siwe.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Plastic.Antlr3.Runtime">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="ADRaffy.ENSNormalize">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/ADRaffy.ENSNormalize.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Merkle.Patricia">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Merkle.Patricia.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.JsonRpc.RpcClient">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.JsonRpc.RpcClient.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.JsonRpc.RpcClient.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.RLP">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.RLP.dll</HintPath>
      </Reference>
      <Reference Include="BouncyCastle.Crypto">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/BouncyCastle.Crypto.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/BouncyCastle.Crypto.dll</HintPath>
      </Reference>
-     <Reference Include="Nethereum.Accounts">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Accounts.dll</HintPath>
+     <Reference Include="Nethereum.HdWallet">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.HdWallet.dll</HintPath>
      </Reference>
-     <Reference Include="Nethereum.Unity">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Unity.dll</HintPath>
+     <Reference Include="Unity.Plastic.Newtonsoft.Json">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
-     <Reference Include="System.Drawing.Common">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/System.Drawing.Common.dll</HintPath>
+     <Reference Include="Nethereum.EVM">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.EVM.dll</HintPath>
      </Reference>
-     <Reference Include="Nethereum.KeyStore">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.KeyStore.dll</HintPath>
-     </Reference>
-     <Reference Include="NBitcoin">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/NBitcoin.dll</HintPath>
+     <Reference Include="Nethereum.Web3">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Web3.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.UI">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.UI.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.UI.dll</HintPath>
      </Reference>
-     <Reference Include="embedded-wallet-service-sdk">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/embedded-wallet-service-sdk.dll</HintPath>
+     <Reference Include="Nethereum.Metamask">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Metamask.dll</HintPath>
+     </Reference>
+     <Reference Include="log4netPlastic">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Unity">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Unity.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Hex">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Hex.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.JsonRpc.Client">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.JsonRpc.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Accounts">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Accounts.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Unity.Metamask">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Unity.Metamask.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Besu">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Besu.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Util">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Util.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Merkle">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Merkle.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.WalletConnect">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity.WalletConnect/Runtime/Nethereum.WalletConnect.dll</HintPath>
      </Reference>
      <Reference Include="Nethereum.Signer.EIP712">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/Nethereum/Nethereum.Signer.EIP712.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Signer.EIP712.dll</HintPath>
      </Reference>
-     <Reference Include="QRCoder">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Assets/QRCoder.dll</HintPath>
+     <Reference Include="Nethereum.GnosisSafe">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.GnosisSafe.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Siwe">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Siwe.dll</HintPath>
+     </Reference>
+     <Reference Include="NBitcoin">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/NBitcoin.dll</HintPath>
+     </Reference>
+     <Reference Include="unityplastic">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.unity.collab-proxy@2.0.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.KeyStore">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.KeyStore.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.Contracts">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="Nethereum.ABI">
+     <HintPath>/home/luis/Projects/AlephVault/Nethereum.Unity/Runtime/Nethereum.ABI.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Logging">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Logging.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Channels">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/System.Threading.Channels.dll</HintPath>
+     </Reference>
+     <Reference Include="zxing.unity">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/External/ZXing/zxing.unity.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Common">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Tokens">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Tokens.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Crypto">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Crypto.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Storage">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Storage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reactive">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/System.Reactive.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Network.Websocket">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Network.Websocket.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Sign">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Sign.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Network">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Network.dll</HintPath>
+     </Reference>
+     <Reference Include="Websocket.Client">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Websocket.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.IdentityModel.Abstractions">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/External/Microsoft.IdentityModel.Abstractions.dll</HintPath>
+     </Reference>
+     <Reference Include="WalletConnectSharp.Core">
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/PackageCache/com.walletconnect.core@3.0.6/Runtime/WalletConnectSharp/WalletConnectSharp.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="embedded-wallet-service-sdk">
+     <HintPath>/home/luis/Projects/AlephVault/unity-evmgames-wallets/Runtime/embedded-wallet-service-sdk.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Gradle">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Win32.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.AppContext">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
      </Reference>
      <Reference Include="System.Buffers">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.Concurrent">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.NonGeneric">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.Specialized">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.EventBasedAsync">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.TypeConverter">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
      </Reference>
      <Reference Include="System.Console">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
      </Reference>
      <Reference Include="System.Data.Common">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Contracts">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Debug">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.FileVersionInfo">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Process">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.StackTrace">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.TextWriterTraceListener">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Tools">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.TraceSource">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Tracing">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
      </Reference>
      <Reference Include="System.Drawing.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Dynamic.Runtime">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization.Calendars">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization.Extensions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Compression.ZipFile">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Compression">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.DriveInfo">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.Watcher">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.IsolatedStorage">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.MemoryMappedFiles">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Pipes">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.UnmanagedMemoryStream">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
      </Reference>
      <Reference Include="System.IO">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Expressions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Parallel">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Queryable">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
      </Reference>
      <Reference Include="System.Memory">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Http">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.NameResolution">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.NetworkInformation">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Ping">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Requests">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Security">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Sockets">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebHeaderCollection">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebSockets.Client">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebSockets">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
      </Reference>
      <Reference Include="System.Numerics.Vectors">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
      </Reference>
      <Reference Include="System.ObjectModel">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.DispatchProxy">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit.ILGeneration">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit.Lightweight">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Extensions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.Reader">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.ResourceManager">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.Writer">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.VisualC">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Extensions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Handles">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Numerics">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Formatters">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Json">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Xml">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Claims">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Algorithms">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Csp">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Encoding">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Primitives">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.X509Certificates">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Principal">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.SecureString">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.Encoding.Extensions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.Encoding">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.RegularExpressions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Overlapped">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks.Extensions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks.Parallel">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Thread">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.ThreadPool">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Timer">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
      </Reference>
      <Reference Include="System.ValueTuple">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.ReaderWriter">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XDocument">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XPath.XDocument">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XPath">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XmlDocument">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XmlSerializer">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.Composition">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
      </Reference>
      <Reference Include="System.Core">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
      </Reference>
      <Reference Include="System.Data">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
      </Reference>
      <Reference Include="System.Drawing">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Compression.FileSystem">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
      </Reference>
      <Reference Include="System.Net">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
      </Reference>
      <Reference Include="System.Numerics">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="System.ServiceModel.Web">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
      </Reference>
      <Reference Include="System.Transactions">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
      </Reference>
      <Reference Include="System.Web">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
      </Reference>
      <Reference Include="System.Windows">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.Linq">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.Serialization">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
      </Reference>
      <Reference Include="System">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
-     <HintPath>/home/luismasuelli/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+     <HintPath>/home/luis/Unity/Hub/Editor/2023.1.13f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>/home/luismasuelli/Projects/Unity/unity-boilerplate-evm-meetgard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>/home/luis/Projects/AlephVault/unity-boilerplate-evm-meetgard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -834,10 +891,6 @@
     <ProjectReference Include="AlephVault.Unity.Meetgard.Auth.Runtime.csproj">
       <Project>{2e7714a0-d5e3-62cf-61ce-d58e3a00a1c9}</Project>
       <Name>AlephVault.Unity.Meetgard.Auth.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="AlephVault.Unity.EVMGames.Runtime.csproj">
-      <Project>{e8c4865f-dc00-8c2f-d1e3-8891cec27204}</Project>
-      <Name>AlephVault.Unity.EVMGames.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AlephVault.Unity.Support.Generic.Runtime.csproj">
       <Project>{43b06186-05bf-fba4-0faf-9e5d407c9b3a}</Project>

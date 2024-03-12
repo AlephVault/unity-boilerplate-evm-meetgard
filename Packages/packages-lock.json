@@ -20,22 +20,13 @@
       "source": "local",
       "dependencies": {}
     },
-    "com.alephvault.unity.evmgames": {
-      "version": "file:../../unity-evmgames",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.alephvault.unity.support": "0.0.2",
-        "com.unity.nuget.newtonsoft-json": "2.0.0"
-      }
-    },
     "com.alephvault.unity.evmgames.auth": {
       "version": "file:../../unity-evmgames-auth",
       "depth": 0,
       "source": "local",
       "dependencies": {
         "com.alephvault.unity.meetgard.auth": "0.0.3",
-        "com.alephvault.unity.evmgames": "0.0.2"
+        "com.nethereum.unity": "4.19.2"
       }
     },
     "com.alephvault.unity.evmgames.contracts": {
@@ -43,9 +34,9 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.menuactions": "0.0.1",
-        "com.alephvault.unity.boilerplates": "0.0.1",
-        "com.alephvault.unity.evmgames": "0.0.2",
+        "com.alephvault.unity.menuactions": "0.0.2",
+        "com.alephvault.unity.boilerplates": "0.0.2",
+        "com.nethereum.unity": "4.19.2",
         "com.unity.nuget.newtonsoft-json": "2.0.0"
       }
     },
@@ -54,7 +45,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.evmgames.contracts": "0.0.1"
+        "com.alephvault.unity.evmgames.contracts": "0.0.2"
       }
     },
     "com.alephvault.unity.evmgames.deeplinks": {
@@ -63,7 +54,7 @@
       "source": "local",
       "dependencies": {
         "com.alephvault.unity.deeplinks": "0.0.1",
-        "com.alephvault.unity.evmgames": "0.0.2"
+        "com.nethereum.unity": "4.19.2"
       }
     },
     "com.alephvault.unity.evmgames.livecache": {
@@ -71,8 +62,8 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.evmgames": "0.0.2",
-        "com.alephvault.unity.remotestorage": "0.0.2"
+        "com.alephvault.unity.remotestorage": "0.0.2",
+        "com.nethereum.unity": "4.19.2"
       }
     },
     "com.alephvault.unity.evmgames.localstorage": {
@@ -80,7 +71,17 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.evmgames": "0.0.2"
+        "com.nethereum.unity": "4.19.2"
+      }
+    },
+    "com.alephvault.unity.evmgames.wallets": {
+      "version": "file:../../unity-evmgames-wallets",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.alephvault.unity.support": "0.0.2",
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.nethereum.unity": "4.19.2"
       }
     },
     "com.alephvault.unity.ipfs": {
@@ -106,7 +107,7 @@
       "dependencies": {
         "com.alephvault.unity.support": "0.0.3",
         "com.alephvault.unity.layout": "0.0.1",
-        "com.alephvault.unity.menuactions": "0.0.1",
+        "com.alephvault.unity.menuactions": "0.0.2",
         "com.alephvault.unity.boilerplates": "0.0.1",
         "com.alephvault.unity.binary": "0.0.1"
       }
@@ -116,7 +117,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.alephvault.unity.meetgard": "0.0.5",
+        "com.alephvault.unity.meetgard": "0.0.6",
         "com.alephvault.unity.support.generic": "0.0.1"
       }
     },
@@ -159,6 +160,21 @@
       "source": "local",
       "dependencies": {
         "com.alephvault.unity.support": "0.0.1"
+      }
+    },
+    "com.nethereum.unity": {
+      "version": "file:../../Nethereum.Unity",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.nethereum.unity.walletconnect": {
+      "version": "file:/home/luis/Projects/AlephVault/Nethereum.Unity.WalletConnect",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.nethereum.unity": "4.19.2",
+        "com.walletconnect.core": "3.0.6"
       }
     },
     "com.unity.ai.navigation": {
@@ -275,6 +291,36 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.walletconnect.core": {
+      "version": "3.0.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.walletconnect.modal": {
+      "version": "1.0.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.walletconnect.core": "3.0.6",
+        "com.walletconnect.ui": "1.0.6"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.walletconnect.ui": {
+      "version": "1.0.6",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.walletconnect.core": "3.0.6",
+        "com.unity.textmeshpro": "3.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
