@@ -14,22 +14,23 @@ So far this project relies on a set of packages that I could consider, at best, 
 
  - com.alephvault.unity.support: [Clone it - 0.0.3](https://github.com/AlephVault/unity-support/tree/0.0.3).
  - com.alephvault.unity.support.generic: [Clone it - 0.0.1](https://github.com/AlephVault/unity-support-generic/tree/0.0.1).
- - com.alephvault.unity.boilerplates: [Clone it - 0.0.2](https://github.com/AlephVault/unity-boilerplates/tree/0.0.1).
+ - com.alephvault.unity.boilerplates: [Clone it - 0.0.2](https://github.com/AlephVault/unity-boilerplates/tree/0.0.2).
  - com.alephvault.unity.binary: [Clone it - 0.0.2](https://github.com/AlephVault/unity-binary/tree/0.0.2).
  - com.alephvault.unity.layout: [Clone it - 0.0.1](https://github.com/AlephVault/unity-layout/tree/0.0.1).
- - com.alephvault.unity.menuactions: [Clone it - 0.0.2](https://github.com/AlephVault/unity-menu-actions/tree/0.0.1).
- - com.alephvault.unity.meetgard: [Clone it - 0.0.6](https://github.com/AlephVault/unity-meetgard/tree/0.0.5).
- - com.alephvault.unity.meetgard.auth: [Clone it - 0.0.5](https://github.com/AlephVault/unity-meetgard-auth/tree/0.0.4).
+ - com.alephvault.unity.menuactions: [Clone it - 0.0.2](https://github.com/AlephVault/unity-menu-actions/tree/0.0.2).
+ - com.alephvault.unity.meetgard: [Clone it - 0.0.6](https://github.com/AlephVault/unity-meetgard/tree/0.0.6).
+ - com.alephvault.unity.meetgard.auth: [Clone it - 0.0.5](https://github.com/AlephVault/unity-meetgard-auth/tree/0.0.5).
  - com.alephvault.unity.meetgard.scopes: [Clone it - 0.0.3](https://github.com/AlephVault/unity-meetgard-scopes/tree/0.0.3).
  - com.alephvault.unity.remotestorage: [Clone it - 0.0.2](https://github.com/AlephVault/unity-remotestorage/tree/0.0.2).
  - com.alephvault.unity.deeplinks: [Clone it - 0.0.1](https://github.com/AlephVault/unity-deeplinks.git/tree/0.0.1).
  - com.alephvault.unity.ipfs: [Clone it - 0.0.1](https://github.com/AlephVault/unity-ipfs/tree/0.0.1).
  - com.alephvault.unity.evmgames.wallets: [Clone it - 0.0.1](https://github.com/AlephVault/unity-evmgames-wallets/tree/0.0.1).
- - com.alephvault.unity.evmgames.auth: [Clone it - 0.0.4](https://github.com/AlephVault/unity-evmgames-auth/tree/0.0.3).
- - com.alephvault.unity.evmgames.livecache: [Clone it - 0.0.3](https://github.com/AlephVault/unity-evmgames-livecache/tree/0.0.2).
- - com.alephvault.unity.evmgames.localstorage: [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-localstorage/tree/0.0.1).
- - com.alephvault.unity.evmgames.contracts: [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-contracts.git/tree/0.0.1).
- - com.alephvault.unity.evmgames.deeplinks: [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-deeplinks.git/tree/0.0.1).
+ - com.alephvault.unity.evmgames.auth: [Clone it - 0.0.4](https://github.com/AlephVault/unity-evmgames-auth/tree/0.0.4).
+ - com.alephvault.unity.evmgames.livecache: [Clone it - 0.0.3](https://github.com/AlephVault/unity-evmgames-livecache/tree/0.0.3).
+ - com.alephvault.unity.evmgames.localstorage: [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-localstorage/tree/0.0.2).
+ - com.alephvault.unity.evmgames.contracts: [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-contracts.git/tree/0.0.2).
+ - com.alephvault.unity.evmgames.contracts.bridge: [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-bridge-contract.git/tree/0.0.2).
+ - com.alephvault.unity.evmgames.deeplinks: [Clone it - 0.0.2](https://github.com/AlephVault/unity-evmgames-deeplinks.git/tree/0.0.2).
  - com.nethereum.unity: [Clone it - 4.19.2](https://github.com/Nethereum/Nethereum.Unity/tree/4.19.2).
  - com.nethereum.unity.walletconnect: [Clone it - 4.19.3](https://github.com/Nethereum/Nethereum.Unity.WalletConnect/tree/4.19.3).
 
